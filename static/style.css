@@ -1,0 +1,196 @@
+/* Style for the entire body */
+body {
+    background-color: crimson;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the user container */
+#user-container {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Style for text inputs */
+input[type="text"], input[type="password"], select, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+/* Style for the username input */
+#user-container input#username {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+
+
+/* Style for buttons */
+button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Different color for the Login button */
+button:nth-child(1) {
+    background-color: #3498db;
+}
+
+/* Different color for the Logout button */
+button:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+/* Different color for the Register button */
+button:nth-child(3) {
+    background-color: #27ae60;
+}
+
+/* Different color for the Save Profile Image button */
+button:nth-child(4) {
+    background-color: #f39c12;
+}
+
+/* Style for user image and greeting */
+#uimage, #gret {
+    margin: 10px 0;
+}
+
+/* Style for book container (you can add more styles here) */
+#book-container {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Style for book-related inputs and buttons */
+#book-container input[type="text"], #book-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+}
+
+#book-container button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Different color for the "Add a Book" button */
+#book-container button:nth-child(4) {
+    background-color: #27ae60;
+}
+
+/* Different color for the "Books!" button */
+#book-container button:nth-child(5) {
+    background-color: #3498db;
+}
+
+/* Different color for the "Users" button */
+#book-container button:nth-child(6) {
+    background-color: #e74c3c;
+}
+
+/* Style for the entire table */
+#book-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style for table headers */
+#book-container th {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+}
+
+/* Style for table cells */
+#book-container td {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+/* Different color for the "Delete" button in the table */
+#book-container button:contains("Delete") {
+    background-color: #e74c3c;
+}
+
+/* Different color for the "Update" button in the table */
+#book-container button:contains("Update") {
+    background-color: #3498db;
+}
+
+/* Different color for the "Lend" button in the table */
+#book-container button:contains("Lend") {
+    background-color: #f39c12;
+}
+
+/* Different color for the "Return" button in the table */
+#book-container button:contains("Return") {
+    background-color: #2ecc71;
+}
+
+/* Style for the entire table (you can add more styles here) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style for table headers (you can add more styles here) */
+th {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+}
+
+/* Style for table cells (you can add more styles here) */
+td {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+/* Different color for the Delete button in the table */
+button:contains("Delete") {
+    background-color: #e74c3c;
+}
+
+/* Different color for the Update button in the table */
+button:contains("Update") {
+    background-color: #3498db;
+}
